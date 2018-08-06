@@ -10,25 +10,7 @@
 		<meta name="robots" content="index, follow" /> 
 		<meta name="generator" content="Bluefish 2.2.10" />
 		<link rel="stylesheet" type="text/css" href="style.css">
-		<title>Northmang</title>
-		
-		<script type="text/javascript" >
-			var nrImagem = 0;
-			var imagens = [];
-			var refrescar = 1; // mudar imagem de 1 em 1 segundo
-
-			// colocar aqui todas as imagens, seguindo a ordem numérica
-			imagens[0] = "endereço imagem 1";
-			imagens[1] = "endereço segunda imagem";
-			imagens[2] = "endereço terceira imagem";
-
-			rodarImagens = function () {
-   				document.images["misto"].src = imagens[nrImagem];
-
-   				nrImagem = (nrImagem + 1) % imagens.length; 
-			}
-			var intervalControl = setInterval(rodarImagens, 1000 * refrescar);
-		</script>
+		<title>Contato</title>
 	</head>
 
 	<body>
@@ -46,16 +28,29 @@
 		</div>
 
 		<div class="container-text">
-			<p>Empresa </p>
+			<ul>Telefone:
+				<li>(11) 2667-0770</li>
+				<li>(11) 94872-9380</li>
+				<li>(11) 97740-2591</li>
+				<li>(11) 98449-2033</li>
+			</ul>
+			<ul>
+				<li>clebson.lima@northmang.com.br</li>			
+			</ul>
+			<p>Endereço:</p>
+			<p>Rua: Av. Nadir Dias de Figueiredo, 1312<br>
+			Bairro: Vila Maria Baixa<br>
+			Cidade: São Paulo<br>
+			Estado: São Paulo<br>
+			CEP: 02110-000</p>
 		</div>
 
 		<div class="container-image">
-			<img src="images/anima.gif" alt="">
+			<img src="images/mapa.png" alt="">
 		</div>
 
 		<div class="container-footer">
-			<p>Av. Nadir Dias de Figueiredo, 1312, Vila Maria Baixa - São Paulo/SP - CEP 02110-000</p>
-			<p>(11) 2667-0770 / (11) 94872-9380 / (11) 97740-2591 / (11) 98449-2033</p>
+		
 		</div>
 	</body>
 </html>
