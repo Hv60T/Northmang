@@ -1,0 +1,16 @@
+CACHE MANIFEST
+# 2018-08-07:v1
+
+# "Entradas mestras" explicitamente armazenadas em cache.
+CACHE:
+/images/favicon.png
+
+# Recursos que exigem que o usuário esteja on-line.
+NETWORK:
+*
+
+# static.html will be served if main.py is inaccessible
+# offline.jpg will be served in place of all images in images/large/
+# offline.html will be served in place of all other .html files
+FALLBACK:
+/404.html
