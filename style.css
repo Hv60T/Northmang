@@ -16,6 +16,7 @@
 	left: 0px;
 	text-align: center;
 	font-family: 'Open Sans', sans-serif;
+	font-size: 14PX;
 	line-height: 35px;
 	word-spacing: 100px;
 	background-color: #AA0000;
@@ -35,7 +36,6 @@
 }
 
 .erro-404{
-
 	font-size: 100px;
 }
 
