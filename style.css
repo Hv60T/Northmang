@@ -132,10 +132,13 @@
 }
 
 .text{
-	font-size: 18px;
+	font-size: 24px;
 	font-family: 'Open Sans', sans-serif;
-	text-align: justify;
+	font-weight: bold;
+	font-style: italic;
+	text-align: center;
 	text-indent: 30px;
+	line-height: 50px;
 }
 
 h1, h2, h3, h4, h5, h6{
