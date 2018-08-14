@@ -142,6 +142,17 @@
 	color: #AA0000;
 }
 
+.text-empresa{
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	font-style: italic;
+	text-align: center;
+	text-indent: 30px;
+	line-height: 50px;
+	color: #AA0000;
+}
+
 h1, h2, h3, h4, h5, h6{
 	font-family: 'Open Sans', sans-serif;
 	text-indent: 20px;
@@ -153,7 +164,10 @@ p{
 }
 
 table{
-	font-size: 24px;
-	font-weight: bold;
+	width: 100%;
+	font-size: 20px;
 	font-style: italic;
+	text-align: center;
+	border-collapse: separate;
+	border-spacing: 20px;
 }
